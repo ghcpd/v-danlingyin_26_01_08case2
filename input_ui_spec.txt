@@ -1,0 +1,57 @@
+Project: Vue 3 Official Website (Simplified)
+
+Goal:
+Create a simplified official website for a front-end framework (Vue 3 style),
+focusing on documentation-style layout and clear content structure.
+
+Pages & Routes:
+
+1. Home (/)
+- Hero section with framework name and tagline
+- Short description of the framework
+- Three feature highlights
+- Call-to-action buttons (Get Started / GitHub)
+
+2. Guide (/guide)
+- Documentation-style page layout
+- Sidebar navigation with sections:
+  - Introduction
+  - Installation
+  - Basic Usage
+- Content displayed based on selected section
+- Highlighted code blocks (static)
+
+3. API Reference (/api)
+- List of APIs (static data)
+- Each API item shows:
+  - Name
+  - Description
+  - Example usage snippet
+
+4. About (/about)
+- Description of the framework philosophy
+- Project goals
+- Community values
+
+Global Layout Requirements:
+- Fixed header with navigation links:
+  Home | Guide | API | About
+- Footer with copyright text
+- Active route highlighting
+- Mobile-friendly navigation
+
+Design & UX:
+- Clean, minimal, documentation-style UI
+- Desktop and mobile responsive
+- Clear typography and spacing
+- No animations required
+
+Data:
+- All content can be static or mock data
+- No backend or API calls required
+
+Out of Scope:
+- Authentication
+- Search
+- Markdown parsing
+- Internationalization
